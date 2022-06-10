@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Manrope', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 100%;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,59 @@
+.main-advice-container {
+    background-color: $dark-grayish-blue;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+    border-radius: 0.85rem;
+
+    @include min-width(laptop) {
+        width: 50%;
+    }
+
+    >h3.advice-id {
+        color: $neon-green;
+    }
+
+    >.advice-container {
+        text-align: center;
+        padding: 2rem 1.25rem;
+
+        >h1.advice {
+            font-size: 1.25rem;
+            color: $light-cyan;
+
+            @include min-width(mobile) {
+                font-size: $font-body-qoute;
+            }
+
+
+        }
+    }
+
+    >.advice-divider-img {
+        margin-top: 1.25rem;
+        width: 100%;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    >.advice-icon {
+        transform: translateY(50%);
+        background-color: $neon-green;
+        padding: 1.25rem;
+        border-radius: 50%;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0 0 50px 0 $neon-green;
+        }
+
+        >img.icon {
+            width: 23px;
+        }
+    }
+
+
+}

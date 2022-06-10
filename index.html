@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Advice generator</title>
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap" rel="stylesheet">
+    <!--FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/0f45878e6a.js" crossorigin="anonymous" defer></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./dist/styles.css">
+    <!--GSAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer></script>
+    <!--JavaScript-->
+    <script src="./app/js/index.js" defer></script>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./assets/img/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="root flex flex-ai-c flex-jc-c" id="root">
+        <main class="main-advice-container flex flex-ai-c flex-fd-c flex-jc-c" id="main-advice-container">
+            <h3 class="advice-id" id="advice-id">Advice</h3>
+            <div class="advice-container">
+                <h1 class="advice" id="advice">Loading...</h1>
+            </div>
+            <div class="advice-divider-img">
+                <img src="./assets/img/pattern-divider-desktop.svg" alt="Pattern Divider">
+            </div>
+            <div class="advice-icon" id="advice-icon" data-advice-icon>
+                <img class="icon" src="./assets/img/icon-dice.svg" alt="Icon Dice">
+            </div>
+
+        </main>
+    </div>
+
+
+</body>
+
+</html>
