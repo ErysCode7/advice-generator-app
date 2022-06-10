@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Krrish105/Advice-Generator-App](https://github.com/Krrish105/Advice-Generator-App)
-- Live Site URL: [https://krrish105.github.io/Advice-Generator-App/](https://krrish105.github.io/Advice-Generator-App/)
+- Solution URL: [https://github.com/ErysCode7/advice-generator-app](https://github.com/ErysCode7/advice-generator-app)
+- Live Site URL: [https://eryscode7.github.io/advice-generator-app/](https://eryscode7.github.io/advice-generator-app/)
 
 ## My process
 
